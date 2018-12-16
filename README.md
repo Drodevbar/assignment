@@ -23,12 +23,12 @@ Note: Default application port is set to 8099. If you want to change it, see doc
 
 #### Endpoints:
 
-| #   | Endpoint                                                      | Method |
-| --- | ------------------------------------------------------------- | ------ |
-| 1   | api/repository/{owner}/{repo}                                 | GET    |
-| 2   | api/repository/{owner}/{repo}/primary                         | GET    |
-| 3   | api/repository/{owner}/{repo}/latest_release                  | GET    |
-| 4   | api/repository/{owner}/{repo}/pull_rq_number/{state?}         | GET    |
+| #   | Endpoint                                                | Method |
+| --- | ------------------------------------------------------- | ------ |
+| 1   | api/repository/{owner}/{repo}                           | GET    |
+| 2   | api/repository/{owner}/{repo}/primary                   | GET    |
+| 3   | api/repository/{owner}/{repo}/latest_release            | GET    |
+| 4   | api/repository/{owner}/{repo}/pr_number/{state?}        | GET    |
 
 #### Parameters:
 * owner (required) - owner of the repository, e.g. Drodevbar

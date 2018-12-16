@@ -17,4 +17,4 @@ Route::get("/repository/{owner}/{repo}/primary", "RepositoryController@primary")
 
 Route::get("/repository/{owner}/{repo}/latest_release", "RepositoryController@latestRelease");
 
-Route::get("/repository/{owner}/{repo}/pull_rq_number/{state?}", "RepositoryController@pullRequestsNumber");
+Route::get("/repository/{owner}/{repo}/pr_number/{state?}", "RepositoryController@pullRequestsNumber");
