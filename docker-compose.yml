@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  app:
+    working_dir: /var/www
+    image: php:7.2-fpm
+    volumes:
+      - ./:/var/www
+
+  web:
+    build:
+      context: .
+      dockerfile: web.dockerfile
+    working_dir: /var/www
+    image: assignment_web
+    ports:
+      - 8099:80
