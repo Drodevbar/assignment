@@ -42,7 +42,7 @@ Api is serving responses in JSON format.
  stars_count, watchers_count, forks_count, latest_release_date, closed_pull_requests_count, open_pull_requests_count
 2. Returns single repo primary data: stars_count, watchers_count, forks_count
 3. Returns single repo latest release date: latest_release_date
-4. Returns single repo pull requests number: closed|open|merged_pull_requests_count
+4. Returns single repo pull requests number: all|merged|open|closed_pull_requests_count
 
 ### Important project namespaces:
 1. App\Dto
