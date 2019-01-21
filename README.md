@@ -32,7 +32,7 @@ Note: Default application port is set to 8099. If you want to change it, see doc
 
 #### Parameters:
 * owner (required) - owner of the repository, e.g. Drodevbar
-* repository (required) - repository name, e.g. assignment
+* repository (required) - repository name, e.g. github-comparator
 * state (optional) - state of the pr; if not provided, number of all prs will be returned; possible values: merged, open, closed
 
 #### Returned data:
